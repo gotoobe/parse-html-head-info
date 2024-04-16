@@ -1,0 +1,11 @@
+### ping
+GET http://localhost:8788/ping
+
+### get default site simple info
+GET http://localhost:8788/site-info
+
+### get github site simple info
+GET http://localhost:8788/site-info?url=https://github.com/halo-dev/halo/issues/5650
+
+### get www.halo.run site simple info
+GET http://localhost:8788/site-info?url=https://www.halo.run
