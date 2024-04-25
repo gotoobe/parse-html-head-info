@@ -23,7 +23,9 @@ go.work
 .idea
 
 tmp
-# 本地保留
+
 vendor
 logs/*.log
 deploy/db
+
+_*
